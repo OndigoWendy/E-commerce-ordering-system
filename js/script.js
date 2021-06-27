@@ -2,9 +2,12 @@
 function getOrders(){
   toppingType = document.form.toppingType.selectedIndex;
   toppingType = document.form.toppingType.options[toppingType].value;
- 
+  crustType = document.form.crustType.selectedIndex;
+  crustType = document.form.crustType.options[crustType].value;
+  var pizzaQuantity = document.getElementById("pizzaQuantity").value;
+  document.getElementById("pizzaQuantity").innerHTML = pizzaQuantity;
   
-    document.getElementById("display2").innerHTML="Small size pizza with " + toppingType +""+"topping"; //To return our result
+    document.getElementById("display2").innerHTML= pizzaQuantity + " " + "small size pizza with " + toppingType + " " + "topping"+ " " + "and" +" "+ crustType; //To return our result
 
 }
 
