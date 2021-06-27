@@ -1,10 +1,4 @@
-body {
-  background-color: rgb(175, 80, 48)
-  /* background-attachment: url(images/2c086b7a-775a-4ad4-ba85-aa61d5298469.jpeg); */
-}
-/* #fullBody{
-  background-image: url(images/2c086b7a-775a-4ad4-ba85-aa61d5298469.jpeg);
-} */
+
 
 .form-inputs {
   position: relative
@@ -25,11 +19,7 @@ body {
   top: 15px
 }
 
-.shopping-cart{
-  width: 50vw;
 
- 
-}
 .shop-bag {
     background-color: #000;
     color: #fff;
@@ -109,14 +99,15 @@ body {
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
-  content: '$';
+  content: 'Ksh';
 }
  
 /* Body/Header stuff */
 body {
+  background-color: rgb(175, 80, 48);
   padding: 0px 30px 30px 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 800;
 }
  
 h1 {
@@ -129,6 +120,8 @@ label {
  
 .shopping-cart {
   margin-top: -45px;
+  width: 50vw;
+
 }
  
 /* Column headers */
@@ -181,7 +174,8 @@ label {
 .totals .totals-item {
   float: right;
   clear: both;
-  width: 100%;
+  width: 90%;
+  padding:  5%;
   margin-bottom: 10px;
 }
 .totals .totals-item label {
@@ -204,7 +198,7 @@ label {
   border: 0;
   margin-top: 20px;
   padding: 6px 25px;
-  background-color: #6b6;
+  background-color: rgb(49, 32, 30);
   color: #fff;
   font-size: 25px;
   border-radius: 3px;
@@ -279,7 +273,7 @@ label {
   }
  
   .product .product-line-price:before {
-    content: 'Item Total: $';
+    content: 'Item Total: Ksh';
   }
  
   .totals .totals-item label {
