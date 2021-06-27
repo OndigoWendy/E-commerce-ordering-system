@@ -27,6 +27,7 @@ body {
 
 .shopping-cart{
   width: 50vw;
+
  
 }
 .shop-bag {
@@ -47,6 +48,14 @@ body {
 
 /* Global settings */
  
+.product{
+  border: solid wheat ;
+ background-color: white ;
+ opacity: 0.5;
+ font-weight: 600;
+ 
+
+}
 .product-image {
   float: left;
   width: 20%;
