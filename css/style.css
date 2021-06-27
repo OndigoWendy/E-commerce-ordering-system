@@ -1,11 +1,11 @@
 
 
 .form-inputs {
-  position: relative
+  position: relative;
 }
 
 .form-inputs .form-control {
-  height: 45px
+  height: 45px;
 }
 
 .form-inputs .form-control:focus {
@@ -36,15 +36,37 @@
   font-size: 12px
 }
 
-/* Global settings */
+/* Body/Header stuff */
+body {
+  background-color: #DBA24A;
+  padding: 0px 30px 30px 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
  
-.product{
-  border: solid wheat ;
- background-color: white ;
- opacity: 0.5;
- font-weight: 600;
+h1 {
+  font-weight: 100;
+}
  
 
+
+ 
+
+
+/* Shopping cart section */
+label {
+  color: rgb(7, 5, 5);
+}
+ 
+.shopping-cart {
+  margin-top: -45px;
+  width: 50vw;
+
+}
+
+.product{
+  border: solid wheat ;
+ font-weight: 600;
 }
 .product-image {
   float: left;
@@ -102,28 +124,7 @@
   content: 'Ksh';
 }
  
-/* Body/Header stuff */
-body {
-  background-color: rgb(175, 80, 48);
-  padding: 0px 30px 30px 20px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-}
- 
-h1 {
-  font-weight: 100;
-}
- 
-label {
-  color: #aaa;
-}
- 
-.shopping-cart {
-  margin-top: -45px;
-  width: 50vw;
 
-}
- 
 /* Column headers */
 .column-labels label {
   padding-bottom: 15px;
@@ -160,14 +161,14 @@ label {
 .product .remove-product {
   border: 0;
   padding: 4px 8px;
-  background-color: #c66;
+  background-color: orange;
   color: #fff;
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   font-size: 12px;
   border-radius: 3px;
 }
 .product .remove-product:hover {
-  background-color: #a44;
+  background-color: orange;
 }
  
 /* Totals section */
