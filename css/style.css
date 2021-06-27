@@ -37,8 +37,10 @@
 }
 
 /* Body/Header stuff */
+
+
 body {
-  background-color: #DBA24A;
+  /* background-color: #DBA24A; */
   padding: 0px 30px 30px 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -55,17 +57,21 @@ h1 {
 
 /* Shopping cart section */
 label {
-  color: rgb(7, 5, 5);
+  color: rgb(231, 220, 220);
 }
  
 .shopping-cart {
   margin-top: -45px;
   width: 50vw;
+  background-color: rgb(61, 47, 47);
+  color: white;
+  font-weight: 800;
+
 
 }
 
 .product{
-  border: solid wheat ;
+  /* border:  wheat ; */
  font-weight: 600;
 }
 .product-image {
@@ -118,6 +124,9 @@ label {
   zoom: 1;
 }
  
+#pizzaQuantity,#pizzaQuantity2,#pizzaQuantity3{
+  color: #000;
+}
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
@@ -129,7 +138,7 @@ label {
 .column-labels label {
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 .column-labels .product-image, .column-labels .product-details, .column-labels .product-removal {
   text-indent: -9999px;
@@ -139,7 +148,7 @@ label {
 .product {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 .product .product-image {
   text-align: center;
@@ -169,21 +178,32 @@ label {
 }
 .product .remove-product:hover {
   background-color: orange;
+ 
 }
  
 /* Totals section */
+#listButton{
+  font-size: 2vw;
+}
 .totals .totals-item {
   float: right;
   clear: both;
   width: 90%;
-  padding:  5%;
-  margin-bottom: 10px;
+  padding:  1%;
+  /* margin-bottom: 10px; */
+  margin: 5% -10%;
+  background-color: rgb(61, 47, 47);
+  /* opacity: 0.6; */
+  color: rgb(230, 223, 223);
+  font-weight: 900;
+  font-size: 1vw;
 }
 .totals .totals-item label {
   float: left;
   clear: both;
   width: 79%;
   text-align: right;
+  color: #eee;
 }
 .totals .totals-item .totals-value {
   float: right;
@@ -195,9 +215,9 @@ label {
 }
  
 .checkout {
-  float: right;
+  /* float: right; */
   border: 0;
-  margin-top: 20px;
+  margin-top: 2%;
   padding: 6px 25px;
   background-color: rgb(49, 32, 30);
   color: #fff;
@@ -283,4 +303,8 @@ label {
   .totals .totals-item .totals-value {
     width: 40%;
   }
+}
+
+#myModal{
+  color: #000;
 }

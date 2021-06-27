@@ -1,4 +1,5 @@
 
+
 function getOrders(){
   toppingType = document.form.toppingType.selectedIndex;
   toppingType = document.form.toppingType.options[toppingType].value;
