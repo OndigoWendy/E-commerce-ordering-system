@@ -1,3 +1,15 @@
+
+function getOrders(){
+  toppingType = document.form.toppingType.selectedIndex;
+  toppingType = document.form.toppingType.options[toppingType].value;
+ 
+  
+    document.getElementById("display2").innerHTML="Small size pizza with " + toppingType +""+"topping"; //To return our result
+
+}
+
+
+
 $(document).ready(function() {
  
   /* Set rates + misc */

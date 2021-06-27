@@ -90,26 +90,30 @@
                <div class="product-details">
                     <div class="product-title">SMALL SIZE PIZZA</div>
                     <p class="product-description"> TOPPINGS:</p>
+                    <form name="form">
                     <div class="form-group row">
-                      <div class="col-7"> 
-                        <select name="month" class="form-control" type="number"  id="monthNumber" >
+                      <div class="col-7">
+                        <select name="toppingType" class="form-control" type="number"  id="monthNumber" >
                           <option value="" selected>Toppings
-                          <option value="January"  >Chicken
-                          <option value="February">Beef
-                          <option value="March">Pineapple
-                          <option value="April">Peri Peri
-                          <option value="May">Beans
-                          <option value="June">Salad
-                          <option value="July">Extra Cheese
-                          <option value="August">Barbacue
-                          <option value="September">Hawaian
-                          <option value="October">Vegeterian
-                          <option value="November">Tomatoes
-                          <option value="December">Extra Chilli
+                          <option value="Chicken"  >Chicken
+                          <option value="Beef">Beef
+                          <option value="Pineapple">Pineapple
+                          <option value="Peri-Peri">Peri Peri
+                          <option value="Beans">Beans
+                          <option value="Salad">Salad
+                          <option value="Extra Cheese">Extra Cheese
+                          <option value="Barbacue">Barbacue
+                          <option value="Hawaian">Hawaian
+                          <option value="Vegeterian">Vegeterian
+                          <option value="Tomatoe">Tomatoes
+                          <option value="Extra Chilli">Extra Chilli
                           </select>
                       </div>
                      </div>
 
+                     </form>
+                    
+            
                </div>
                <div class="product-price">599</div>
                <div class="product-quantity">
@@ -121,6 +125,9 @@
                <div class="product-line-price">599</div>
        </div>
       
+
+      
+
        <div class="product">
                <div class="product-image">
                   <img src="images/logo.jpeg">
@@ -196,6 +203,11 @@
        </div>
        <div class="product-line-price">45.99</div>
 </div>
+
+<span>
+  <button  class="btn btn-primary btn-lg"  onClick="getOrders()"> LIST OF ORDERS</button>
+  <p id="display2"></p>
+</span>
       
 <div class="totals">
   <div class="totals-item">
@@ -219,6 +231,8 @@
     <button class="checkout">Checkout</button>
 
 </div>
-        
+    
+
+
 </body>
 </html>
