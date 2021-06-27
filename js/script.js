@@ -6,8 +6,26 @@ function getOrders(){
   crustType = document.form.crustType.options[crustType].value;
   var pizzaQuantity = document.getElementById("pizzaQuantity").value;
   document.getElementById("pizzaQuantity").innerHTML = pizzaQuantity;
+
+  toppingType2 = document.form.toppingType2.selectedIndex;
+  toppingType2 = document.form.toppingType2.options[toppingType2].value;
+  crustType2 = document.form.crustType2.selectedIndex;
+  crustType2 = document.form.crustType2.options[crustType2].value;
+  var pizzaQuantity2 = document.getElementById("pizzaQuantity2").value;
+  document.getElementById("pizzaQuantity2").innerHTML = pizzaQuantity2;
+
+  toppingType3 = document.form.toppingType3.selectedIndex;
+  toppingType3 = document.form.toppingType3.options[toppingType3].value;
+  crustType3 = document.form.crustType3.selectedIndex;
+  crustType3 = document.form.crustType.options[crustType3].value;
+  var pizzaQuantity3 = document.getElementById("pizzaQuantity3").value;
+  document.getElementById("pizzaQuantity3").innerHTML = pizzaQuantity;
   
-    document.getElementById("display2").innerHTML= pizzaQuantity + " " + "small size pizza with " + toppingType + " " + "topping"+ " " + "and" +" "+ crustType; //To return our result
+    document.getElementById("display2").innerHTML="-" + pizzaQuantity + " " + "small size pizza with " + toppingType + " " + "topping"+ " " + "and" +" "+ crustType +"<br>"+
+
+    "-" +pizzaQuantity2 + " " + "medium size pizza with " + toppingType2 + " " + "topping"+ " " + "and" +" "+ crustType2 +"<br>"+
+     
+    "-" +pizzaQuantity3 + " " + "medium size pizza with " + toppingType3 + " " + "topping"+ " " + "and" +" "+ crustType3; 
 
 }
 
