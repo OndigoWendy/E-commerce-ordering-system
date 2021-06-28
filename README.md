@@ -11,7 +11,7 @@ This is web application for making online orders from pizza place restaurant.
 * [Contact information](#contacts)
 
 ## Project Name
-DELANI STUDIO
+PIZZA PLACE RESTAURANT
  ## Authors
 Wendy Ondigo
 
