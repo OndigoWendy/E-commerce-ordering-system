@@ -191,11 +191,9 @@ label {
   float: right;
   clear: both;
   width: 90%;
-  padding:  1%;
-  /* margin-bottom: 10px; */
+  padding:  0.5%;
   margin: 5% -10%;
   background-color: rgb(61, 47, 47);
-  /* opacity: 0.6; */
   color: rgb(230, 223, 223);
   font-weight: 900;
   font-size: 1vw;
@@ -220,7 +218,7 @@ label {
   /* float: right; */
   border: 0;
   margin-top: 2%;
-  padding: 6px 25px;
+  padding: 2px 2gitpx;
   background-color: rgb(49, 32, 30);
   color: #fff;
   font-size: 25px;
