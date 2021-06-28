@@ -1,4 +1,19 @@
+/* Body styling */
+body {
+  padding: 0px 30px 30px 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
 
+strong{
+  color: orange;
+}
+ 
+h3 {
+  font-weight: 600;
+  color: #eee;
+}
+ 
 
 .form-inputs {
   position: relative;
@@ -36,20 +51,7 @@
   font-size: 12px
 }
 
-/* Body/Header stuff */
 
-
-body {
-  /* background-color: #DBA24A; */
-  padding: 0px 30px 30px 20px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-}
- 
-h1 {
-  font-weight: 100;
-}
- 
 
 
  
