@@ -119,3 +119,8 @@ $(document).ready(function() {
         }
         
 });
+
+
+function checkoutAlert() {
+  alert("Thank you for shopping at Pizza place.We have received your order!Delieveries will be made to you location.");
+}
