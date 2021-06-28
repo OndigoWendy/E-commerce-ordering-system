@@ -230,7 +230,16 @@ label {
 .checkout:hover {
   background-color: #494;
 }
- 
+
+#checkoutButton1,#checkoutButton2{
+ margin: 1%;
+ width: 30vw;
+ color: black;
+ font-size: 1.5vw;
+ font-weight: 600;
+}
+
+
 /* Make adjustments for tablet */
 @media screen and (max-width: 650px) {
   .shopping-cart {

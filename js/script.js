@@ -73,12 +73,16 @@ $(document).ready(function() {
               $('#cart-tax').html(tax.toFixed(2));
               $('#cart-shipping').html(shipping.toFixed(2));
               $('#cart-total').html(total.toFixed(2));
+              $('#cartTotal1').html(total.toFixed(2));
+              $('#cartTotal2').html(total.toFixed(2));
             if(total == 0){
               $('.checkout').fadeOut(fadeTime);
             }else{
               $('.checkout').fadeIn(fadeTime);
             }
             $('.totals-value').fadeIn(fadeTime);
+            $('.totalsValue2').fadeIn(fadeTime);
+            $('.totalsValue2').fadeIn(fadeTime);
           });
         }
         

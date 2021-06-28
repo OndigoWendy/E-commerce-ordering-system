@@ -11,143 +11,132 @@
   <title>PIZZA PLACE</title>
 </head>
 <body id="fullBody" style="background-image: url(images/logo.jpeg); " >
+  <!-- Header section. -->
     <header class="section-header">
-        <nav class="navbar navbar-dark navbar-expand p-0 bg-dark">
-             <div class="container-fluid">
-                 <ul class="navbar-nav d-none d-md-flex mr-auto">
-                   <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Cash On Delivery</a></li>
-                   <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Free Delivery</a></li>
-                   <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Offers</a></li>
-                 </ul>
-                 <ul class="navbar-nav d-flex align-items-center">
-                   <li class="nav-item">
-                     <div class="d-flex flex-row"> <img src="images/logo.jpeg" class="rounded-circle" width="30"> </div>
-                   </li>
-                   <li class="nav-item">
-                     <a href="#" class="nav-link d-flex align-items-center" data-abc="true"><span>Sign Up/Log In</span><i class='bx bxs-chevron-down'></i></a> 
-                  </li>
-                 </ul> 
-              </div> 
-        </nav>
-         <!-- header-top-light.// -->
-      <section class="header-main border-bottom bg-white">
-          <div class="container-fluid">
-              <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
-                <div class="col-md-2"> <img class="d-none d-md-flex" src="images/logo.jpeg" width="100"> </div>
-                <div class="col-md-8">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid"> <a class="navbar-brand d-md-none d-md-flex" href="#">Categories</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Small</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Medium</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Large</a> </li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Happy Hour</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Two for two</a></li>
-                                <li><a class="dropdown-item" href="#">Saturday Fun-day</a></li>
-                                <li><a class="dropdown-item" href="#">Lucky Customer</a></li>
-                            </ul>
-                        </li>
+            <nav class="navbar navbar-dark navbar-expand p-0 bg-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav d-none d-md-flex mr-auto">
+                      <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Cash On Delivery</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Free Delivery</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Offers</a></li>
                     </ul>
-                  </div>
-             </div>
-         </nav>
-                </div>
-                <div class="col-md-2">
-                    <div class="d-flex d-none d-md-flex flex-row align-items-center"> <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
-                      <div class="d-flex flex-column ms-2"> <span class="qty">Your Total</span> <span class="fw-bold"> </span> </div>
-                     
-                    </div>
-                </div>
-              </div>
-          </div>
-      </section>
-
-        
-     </header>
-
-
-    <div class="container">
-         <div class="row">
-            <div class="col-6">
-              <h3>Make an order here!</h3>
- 
-                <div class="shopping-cart">
-                    <div class="column-labels">
-                        <label class="product-image">Image</label>
-                        <label class="product-details">Product</label>
-                        <label class="product-price">Price</label>
-                        <label class="product-quantity">Quantity</label>
-                        <label class="product-removal">Remove</label>
-                        <label class="product-line-price">Total</label>
-                    </div>
-      
-                  <div class="product">
-                        <div class="product-image"> <img src="images/pizza1.jpg"></div>
-                        <div class="product-details">
-                              <div class="product-title"> <strong>SMALL SIZE PIZZA</strong> </div>
-                              <p class="product-description"> TOPPINGS AND CRUSTS:</p>
-                               
-                              <form name="form">
-                                <div class="form-group row">
-                                  <div class="col-7">
-                                    <select  name="toppingType"  class="form-control" type="number"  id="toppingList"  >
-                                      
-                                      <option  value="(Enter topping-type)" selected>Select a topping
-                                      <option value="Chicken" >Chicken-Ksh200
-                                      <option value="Beef">Beef-Ksh 100
-                                      <option value="Pineapple">Pineapple-Ksh 50
-                                      <option value="Peri-Peri">Peri Peri-Ksh 100
-                                    </select>
-                                    <br>
-                                    <select name="crustType" class="form-control" type="number"  id="crustList" >
-                                     <option value="(Enter crust-type)" selected>Select a Crust
-                                      <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
-                                        <option value="Thin Crust">Thin crust-Ksh 100
-                                        <option value="Silican Style Crust">Silican style -Ksh 150
-                                       <option value="Chicago deep fish">Chicago deep fish -Ksh 200
-                                        
-                                   
-                                   </select>
-                                  </div>
-                                </div>
-                             
-                                
-                        </div>
-                        <div class="product-price">500</div>
-                        <div class="product-quantity"><input type="number" value="0" min="0" id="pizzaQuantity"></div>
-                        <div class="product-removal"><button class="remove-product"> Remove</button> </div>
-                        <div class="product-line-price">0.00</div>
+                    <ul class="navbar-nav d-flex align-items-center">
+                      <li class="nav-item">
+                        <div class="d-flex flex-row"> <img src="images/logo.jpeg" class="rounded-circle" width="30"> </div>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link d-flex align-items-center" data-abc="true"><span>Sign Up/Log In</span><i class='bx bxs-chevron-down'></i></a> 
+                      </li>
+                    </ul> 
+                  </div> 
+            </nav>
+         <!-- header-top-light.// -->
+            <section class="header-main border-bottom bg-white">
+                <div class="container-fluid">
+                    <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
+                      <div class="col-md-2"> <img class="d-none d-md-flex" src="images/logo.jpeg" width="100"> </div>
+                      <div class="col-md-8">
+                          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                              <div class="container-fluid"> <a class="navbar-brand d-md-none d-md-flex" href="#">Categories</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                      <ul class="navbar-nav">
+                                          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Small</a> </li>
+                                          <li class="nav-item"> <a class="nav-link" href="#">Medium</a> </li>
+                                          <li class="nav-item"> <a class="nav-link" href="#">Large</a> </li>
+                                          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Happy Hour</a>
+                                              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                  <li><a class="dropdown-item" href="#">Two for two</a></li>
+                                                  <li><a class="dropdown-item" href="#">Saturday Fun-day</a></li>
+                                                  <li><a class="dropdown-item" href="#">Lucky Customer</a></li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                    </div>
+                              </div>
+                           </nav>
+                      </div>
+                      <div class="col-md-2">
+                           <div class="d-flex d-none d-md-flex flex-row align-items-center"> <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
+                            <div class="d-flex flex-column ms-2"> <span class="qty">Your Total</span> <span class="fw-bold"> </span> </div>
+                           </div>
+                      </div>
                    </div>
-    
+                </div>
+            </section>
+    </header>
+
+    <!-- CART SECTION -->
+    <div class="container">
+       <div class="row">
+          <div class="col-6">
+            <h3>Make an order here!</h3>
+               <div class="shopping-cart">
+                  <div class="column-labels">
+                      <label class="product-image">Image</label>
+                      <label class="product-details">Product</label>
+                      <label class="product-price">Price</label>
+                      <label class="product-quantity">Quantity</label>
+                      <label class="product-removal">Remove</label>
+                      <label class="product-line-price">Total</label>
+                  </div>
+      
+              <div class="product">
+                    <div class="product-image"> <img src="images/pizza1.jpg"></div>
+                    <div class="product-details">
+                          <div class="product-title"> <strong>SMALL SIZE PIZZA</strong> </div>
+                          <p class="product-description"> TOPPINGS AND CRUSTS:</p>
+                            
+                          <form name="form">
+                            <div class="form-group row">
+                              <div class="col-7">
+                                <select  name="toppingType"  class="form-control" type="number"  id="toppingList">
+                                  <option  value="(Enter topping-type)" selected>Select a topping
+                                  <option value="Chicken" >Chicken-Ksh200
+                                  <option value="Beef">Beef-Ksh 100
+                                  <option value="Pineapple">Pineapple-Ksh 50
+                                  <option value="Peri-Peri">Peri Peri-Ksh 100
+                                </select>
+                                <br>
+                                <select name="crustType" class="form-control" type="number"  id="crustList" >
+                                  <option value="(Enter crust-type)" selected>Select a Crust
+                                  <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
+                                  <option value="Thin Crust">Thin crust-Ksh 100
+                                  <option value="Silican Style Crust">Silican style -Ksh 150
+                                  <option value="Chicago deep fish">Chicago deep fish -Ksh 200
+                                </select>
+                              </div>
+                            </div>
+                    </div>
+                    <div class="product-price">500</div>
+                    <div class="product-quantity"><input type="number" value="0" min="0" id="pizzaQuantity"></div>
+                    <div class="product-removal"><button class="remove-product"> Remove</button> </div>
+                    <div class="product-line-price">0.00</div>
+              </div>
+
                    <div class="product">
                         <div class="product-image"><img src="images/pizza2.jpg"></div>
                         <div class="product-details">
-                          <div class="product-title"><strong>MEDIUM</strong> SIZE PIZZA</div>
-                          <p class="product-description">  TOPPINGS AND CRUSTS:</p>
-                          <div class="form-group row">
-                             <div class="col-7"> 
-                              <select name="toppingType2" class="form-control" type="number"  id="toppingList" >
-                                <option value="(Enter topping-type)" selected>Select a topping
-                                  <option value="Chicken" >Chicken-Ksh200
+                            <div class="product-title"><strong>MEDIUM</strong> SIZE PIZZA</div>
+                            <p class="product-description">  TOPPINGS AND CRUSTS:</p>
+                            <div class="form-group row">
+                              <div class="col-7"> 
+                                  <select name="toppingType2" class="form-control" type="number"  id="toppingList" >
+                                    <option value="(Enter topping-type)" selected>Select a topping
+                                    <option value="Chicken" >Chicken-Ksh200
                                     <option value="Beef">Beef-Ksh 100
                                     <option value="Pineapple">Pineapple-Ksh 50
                                     <option value="Peri-Peri">Peri Peri-Ksh 100
-                               
-                              </select>
-                              <br>
-                              <select name="crustType2" class="form-control" type="number"  id="crustList" >
-                               <option value="(Enter crust-type)" selected> Select a Crust
-                                <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
-                                  <option value="Thin Crust">Thin crust-Ksh 100
-                                  <option value="Silican Style Crust">Silican style -Ksh 150
-                                 <option value="Chicago deep fish">Chicago deep fish -Ksh 200
-                                  
-                              
-                             </select>
-                             </div>
-                          </div>
+                                  </select>
+                                  <br>
+                                  <select name="crustType2" class="form-control" type="number"  id="crustList" >
+                                    <option value="(Enter crust-type)" selected> Select a Crust
+                                    <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
+                                    <option value="Thin Crust">Thin crust-Ksh 100
+                                    <option value="Silican Style Crust">Silican style -Ksh 150
+                                    <option value="Chicago deep fish">Chicago deep fish -Ksh 200
+                                </select>
+                              </div>
+                            </div>
                         </div>
                         <div class="product-price">1000</div>
                         <div class="product-quantity"><input type="number" value="0" min="0" id="pizzaQuantity2"></div>
@@ -156,67 +145,66 @@
                    </div>
 
                    <div class="product">
-                      <div class="product-image"> <img src="images/pizza3.jpg"> </div>
-                      <div class="product-details">
-                          <div class="product-title"> <strong> LARGE</strong> SIZE PIZZA</div>
-                          <p class="product-description">  TOPPINGS AND CRUSTS:</p>
-                          <div class="form-group row">
-                            <div class="col-7"> 
-                              <select name="toppingType3" class="form-control" type="number"  id="toppingList" >
-                                <option value="(Enter topping-type)" selected>Select a topping
-                                  <option value="Chicken" >Chicken-Ksh200
+                        <div class="product-image"> <img src="images/pizza3.jpg"> </div>
+                        <div class="product-details">
+                            <div class="product-title"> <strong> LARGE</strong> SIZE PIZZA</div>
+                              <p class="product-description">  TOPPINGS AND CRUSTS:</p>
+                            <div class="form-group row">
+                                <div class="col-7"> 
+                                  <select name="toppingType3" class="form-control" type="number"  id="toppingList" >
+                                    <option value="(Enter topping-type)" selected>Select a topping
+                                    <option value="Chicken" >Chicken-Ksh200
                                     <option value="Beef">Beef-Ksh 100
                                     <option value="Pineapple">Pineapple-Ksh 50
-                                    <option value="Peri-Peri">Peri Peri-Ksh 100
-                            
-                              </select>
-                              <br>
-                              <select name="crustType3" class="form-control" type="number"  id="crustList" >
-                               <option value="(Enter crust-type)" selected>Select a Crust
-                               <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
-                               <option value="Thin Crust">Thin crust-Ksh 100
-                               <option value="Silican Style Crust">Silican style -Ksh 150
-                              <option value="Chicago deep fish">Chicago deep fish -Ksh 200
-                               
-                               
-                             </select>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="product-price">1500</div>
-                      <div class="product-quantity"><input type="number" value="0" min="0" id="pizzaQuantity3"></div>
-                      <div class="product-removal"><button class="remove-product">Remove </button></div>
-                      <div class="product-line-price">0.00</div>
+                                    <option value="Peri-Peri">Peri Peri-Ksh 150
+                                  </select>
+                                  <br>
+                                    <select name="crustType3" class="form-control" type="number"  id="crustList" >
+                                    <option value="(Enter crust-type)" selected>Select a Crust
+                                    <option value="Napoleon Crust"  >Napoleon crust-Ksh 50
+                                    <option value="Thin Crust">Thin crust-Ksh 100
+                                    <option value="Silican Style Crust">Silican style -Ksh 150
+                                    <option value="Chicago deep fish">Chicago deep fish -Ksh 200
+                                 </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-price">1500</div>
+                        <div class="product-quantity"><input type="number" value="0" min="0" id="pizzaQuantity3"></div>
+                        <div class="product-removal"><button class="remove-product">Remove </button></div>
+                        <div class="product-line-price">0.00</div>
                    </div>
-                </div>
-
               </div>
-            </form>
+          </div>
+       </form>
 
+
+       <!-- TOTALS SECTION -->
         <div class="col-6">
            <div class="totals">  
-              <div class="totals-item">
-                <button  class="btn btn-warning btn-lg" id="listButton" onClick="getOrders()"> CLICK TO SEE YOUR ORDERS!</button>
-                <p id="display2"></p>
-                <label>Subtotal</label>
-                <div class="totals-value" id="cart-subtotal">00.00</div>
-              </div>
-              <div class="totals-item">
-                <label>Tax (5%)</label>
-                <div class="totals-value" id="cart-tax">0.00</div>
-              </div>
-              <div class="totals-item">
-                <label>Delivery Fee</label>
-                <div class="totals-value" id="cart-shipping">150.00</div>
-              </div>
-              <div class="totals-item totals-item-total">
-                <label>Grand Total</label>
-                <!-- <div class="totals-value" id="cart-total">0.00</div> -->
-                <div class="totals-value" id="cart-total">00.0</div>
-              </div>
-              <div class="totals-item totals-item-total">
+                <div class="totals-item">
+                  <button  class="btn btn-warning btn-lg" id="listButton" onClick="getOrders()"> CLICK TO SEE YOUR ORDERS!</button>
+                  <p id="display2"></p>
+                  <label>Subtotal</label>
+                  <div class="totals-value" id="cart-subtotal">00.00</div>
+                </div>
+                <div class="totals-item">
+                  <label>Tax (5%)</label>
+                  <div class="totals-value" id="cart-tax">0.00</div>
+                </div>
+                <div class="totals-item">
+                  <label>Delivery Fee</label>
+                  <div class="totals-value" id="cart-shipping">150.00</div>
+                </div>
+                <div class="totals-item totals-item-total">
+                  <label>Grand Total</label>
+                  <div class="totals-value" id="cart-total">00.0</div>
+                </div>
+                <div class="totals-item totals-item-total">
                 <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">CHECKOUT</button>
+                    <button type="button" class="btn btn-warning  btn-info btn-lg" id="checkoutButton1" data-toggle="modal" data-target="#myModal">CHECKOUT 1-ADDRESS DELIVERY</button>
+                    <button type="button" class="btn btn-warning  btn-info btn-lg" id="checkoutButton2" data-toggle="modal" data-target="#myModal2">CHECKOUT 2-SELF PICK-UP</button>
+                </div>
 
                     <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
@@ -224,36 +212,62 @@
 
                         <!-- Modal content-->
                         <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">ENTER YOUR DELIVERY DETAILS</h4>
-                          </div>
-                          <div class="modal-body">
-                            <div class="totals-item totals-item-total">
-                              <label>Grand Total</label>
-                              <div class="totals-value" id="cart-total">00.0</div>
-                            </div>
-                            <p>Enter the details to complete your order:</p>
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="ID Number">
-                                <input type="text" placeholder="Mobile No.">
-                                <input type="text" placeholder="Delivery Address">
-                          </div>
-                          <div class="modal-footer">
-                            <button>SUBMIT</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
-                          </div>
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">ENTER YOUR DELIVERY DETAILS</h4>
+                              </div>
+                              <div class="modal-body">
+                                    <div class="totalsItem totals-item-total">
+                                      <label>Grand Total</label>
+                                      <div class="totalsValue1" id="cartTotal1">00.0</div>
+                                    </div>
+                                    <p>Enter the details to complete your order:</p>
+                                        <input type="text" placeholder="Name">
+                                        <input type="text" placeholder="ID Number">
+                                        <input type="text" placeholder="Mobile No.">
+                                        <input type="text" placeholder="Delivery Address">
+                              </div>
+                              <div class="modal-footer">
+                                <button>SUBMIT</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                              </div>
                         </div>
-              </div>
-          </div>
-         </div>
+                      </div>
+                    </div>
+                      <!-- Modal2 -->
+                    <div id="myModal2" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
 
-      </div>
-    </div>
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">ENTER YOUR DELIVERY DETAILS</h4>
+                              </div>
+                              <div class="modal-body">
+                                <div class="totalsItem totals-item-total">
+                                  <label>Grand Total</label>
+                                  <div class="totalsValue2" id="cartTotal2">00.0</div>
+                                </div>
+                                <p>Enter the details to complete your order:</p>
+                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="ID Number">
+                                    <input type="text" placeholder="Mobile No.">
+                              </div>
+                              <div class="modal-footer">
+                                <button>SUBMIT</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                              </div>
+                         </div>
+                      </div>
+                  </div>
+
+      <!-- </div>
+    </div> -->
 
 
-  </div>
-</div>
+  <!-- </div>
+</div> -->
 
 
 
