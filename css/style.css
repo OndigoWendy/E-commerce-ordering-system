@@ -190,9 +190,9 @@ label {
 .totals .totals-item {
   float: right;
   clear: both;
-  width: 90%;
-  padding:  0.5%;
-  margin: 5% -10%;
+  /* width: 80%; */
+  /* padding:  0.5%;
+  margin: 5% -10%; */
   background-color: rgb(61, 47, 47);
   color: rgb(230, 223, 223);
   font-weight: 900;
